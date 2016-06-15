@@ -15,7 +15,7 @@ ZENDESK_BASE = 'https://waveaccounting2.zendesk.com'
 #ZENDESK_USERNAME = getenv('ZD_USERNAME')
 #ZENDESK_TOKEN = getenv('ZD_TOKEN')
 ZENDESK_USERNAME = 'rhamilton@waveaccounting.com'
-ZENDESK_TOKEN = 'QphnaRxH4UGRmMHkMUQSHfHzioCDaY8itSDkGaYT'
+ZENDESK_TOKEN = ''
 
 if not all([ZENDESK_TOKEN, ZENDESK_USERNAME]):
 	raise Exception("Did you forget to set ZD_USERNAME and/or ZD_TOKEN variables?")
